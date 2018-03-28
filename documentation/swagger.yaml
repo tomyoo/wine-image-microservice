@@ -93,9 +93,9 @@ components:
               type: integer
             height:
               type: integer
-            created:
+            created_on:
               type: string
-            parent:
+            parent_id:
               type: object
               properties:
                 id:
@@ -104,7 +104,7 @@ components:
                   type: integer
                 height:
                   type: integer
-                created:
+                created_on:
                   type: string
     Error:
       required:
