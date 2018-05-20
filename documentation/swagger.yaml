@@ -81,31 +81,27 @@ components:
       allOf:
         - required:
           - id
-          - width
-          - height
-          - created
-          - parent
+          - variation
+          - created_on
           - cdn_url
           properties:
             id:
               type: integer
-            width:
-              type: integer
-            height:
-              type: integer
-            created:
-              type: string
-            parent:
+            variation:
               type: object
               properties:
                 id:
                   type: integer
+                name:
+                  type: string
                 width:
                   type: integer
                 height:
                   type: integer
-                created:
-                  type: string
+            created_on:
+              type: string
+            cdn_url:
+              type: string
     Error:
       required:
         - code
