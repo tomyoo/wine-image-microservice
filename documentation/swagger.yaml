@@ -87,7 +87,17 @@ components:
           properties:
             id:
               type: integer
+<<<<<<< HEAD
             variation:
+=======
+            width:
+              type: integer
+            height:
+              type: integer
+            created_on:
+              type: string
+            parent_id:
+>>>>>>> c1933fc5315fe9296aadbae398a554e9b26c6344
               type: object
               properties:
                 id:
@@ -98,10 +108,15 @@ components:
                   type: integer
                 height:
                   type: integer
+<<<<<<< HEAD
             created_on:
               type: string
             cdn_url:
               type: string
+=======
+                created_on:
+                  type: string
+>>>>>>> c1933fc5315fe9296aadbae398a554e9b26c6344
     Error:
       required:
         - code
